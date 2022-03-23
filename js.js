@@ -1,24 +1,24 @@
-/*var name = prompt("What is your name?")
+//var name = prompt("What is your name?")
 
 
 //ways to print in js
 
-document.write(name);
-alert(name);
+/*document.write(name);
+alert(name);*/
 
 
 //js console api
-console.warn("this is a warning");
+/*console.warn("this is a warning");
 console.error("this is error");*/
 
 //js variables
 /*var no1 = 54;
 var no2 = 89;
-console.log(no1 + no2);
+console.log(no1 + no2);*/
 
 //data types in js
 //number
-var num1 = 55;
+/*var num1 = 55;
 var num = 66;
 console.log(num1 + num);
 
@@ -55,13 +55,13 @@ console.log(arr[3]);
 
 var arr = [1, 2, "hii", 5];
 console.log(arr[2]);
-console.log(arr);
+console.log(arr);*/
 
 //operators in js
 
 //arithmetic
 
-var d = 40;
+/*var d = 40;
 var s = 89;
 console.log("the value of d+s is", d + s);
 console.log("the value of d-s is", d - s);
@@ -84,14 +84,14 @@ console.log(x <= y);
 console.log(true && true);
 console.log(true && false);
 console.log(false && true);
-console.log(false && false);
+console.log(false && false);*/
 
 
 //logical or
 //multiple cursors are used
 
 //logical not
-console.log(!true);
+/*console.log(!true);
 console.log(!false);
 
 //function
@@ -101,13 +101,13 @@ function avg(a, b) {
 
 c1 = avg(13, 18);
 c2 = avg(38, 90);
-console.log(c1, c2);
+console.log(c1, c2);*/
 
 //conditional in js
 
 var age = 23;
 //if else statement
-if (age > 18) {
+/*if (age > 18) {
     console.log("you can drink");
 }
 else {
@@ -156,51 +156,51 @@ do {
     console.log(arr[j]);
     j++;
 }
-while (j < arr.length);
+while (j < arr.length);*/
 
 
 
 
 //arrray method
-let myArr=["ram",9,null,true];
+/*let myArr=["ram",9,null,true];
 console.log(myArr.length);
 myArr.pop();//last one gets removed
 myArr.push("added");//adds array at last
 myArr.shift();//first array gets removed
 myArr.unshift(99);//array is added at first
-console.log(myArr.unshift(99));
+console.log(myArr.unshift(99));*/
 
 //or
-let newArr = myArr.unshift(99);
+/*let newArr = myArr.unshift(99);
 console.log(newArr);
-console.log(myArr);
+console.log(myArr);*/
 
 let myArr = ["ram", 9, null, true];
-console.log(myArr.toString());//bracket hatayera dinxa
-console.log(myArr.sort());
+/*console.log(myArr.toString());//bracket hatayera dinxa
+console.log(myArr.sort());*/
 
 //string method in js
 
-let myString = "I am a good girl";
+/*let myString = "I am a good girl";
 console.log(myString.length);
 console.log(myString.indexOf("girl"));
 
 console.log(myString.slice(5, 9));
 h = myString.replace("I", "she");
 h = h.replace("am", "is");
-console.log(h);
+console.log(h);*/
 
 //date js
-let myDate = new Date();
+/*let myDate = new Date();
 console.log(myDate);
 console.log(myDate.getTime());
 console.log(myDate.getFullYear());
-console.log(myDate.getDay());
+console.log(myDate.getDay());*/
 
 
 //DOM manipulation
 //get elements by id ,class
-let elemClass = document.getElementsByClassName("container");
+/*let elemClass = document.getElementsByClassName("container");
 console.log(elemClass);
 
 const click = document.getElementById('click');
@@ -223,8 +223,8 @@ console.log(query);*/
 
 
 //query selector all
-const dom = document.querySelectorAll('.container');
-console.log(dom);
+//const dom = document.querySelectorAll('.container');
+//console.log(dom);
 
 
 
